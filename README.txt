@@ -4,6 +4,13 @@ CREDITS
 Code: Sdd
 Art: Sdd
 
+------------------------------------------------------------------------------------
+
+GAME
+
+Buildштп a tower. Blocks will appear from the side, and the player will need to press Space to stop them on top of the previous block. 
+The unmatched part will be cut off, making it more difficult to place a block on top of the previous one. The goal is to build the tower as high as possible.
+
 ---------------------------------------------------------------------------------------
 
 HOW TO RUN
@@ -16,10 +23,13 @@ pygame, button, gif_pygame, random, sys
 
 'button', 'pygame' and 'gif_pygame' are needed to be installed by writing 'pip install package_name' into cmd 
 
-TROUBLESHOOTING
-'pip install packaging'
+--------------------------------------------------------------------------------------
 
-If you have a trouble installing 'button' package(because I actually had one), you should:
+TROUBLESHOOTING
+ 
+ - pip install packaging
+
+If you have a trouble installing 'button' package, you should:
 
  - Download 'button-0.03.post3' from pypi.org/project/button/
 
