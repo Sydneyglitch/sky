@@ -1,11 +1,8 @@
-SKY+
+Title: SKY+
 
 CREDITS
 Code: Sdd
 Art: Sdd
-
-This is a simple skyscraper-building game. My very first game ever, made for my first game jam ever. 
-I’m really glad for the experience, thank you :]
 
 ---------------------------------------------------------------------------------------
 
@@ -18,7 +15,9 @@ LIBRARIES USED
 pygame, button, gif_pygame, random, sys
 
 'button', 'pygame' and 'gif_pygame' are needed to be installed by writing 'pip install package_name' into cmd 
-!!! and also 'pip install packaging'
+
+TROUBLESHOOTING
+'pip install packaging'
 
 If you have a trouble installing 'button' package(because I actually had one), you should:
 
@@ -40,3 +39,8 @@ If you have a trouble installing 'button' package(because I actually had one), y
 LICENSE
 
 This game is released under the MIT License.
+
+--------------------------------------------------------------------------------------
+
+This is a simple skyscraper-building game. My very first game ever, made for my first game jam ever. 
+I’m really glad for the experience, thank you :]
