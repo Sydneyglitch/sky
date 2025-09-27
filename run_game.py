@@ -1,5 +1,4 @@
-import pygame, sys, random, gif_pygame
-import button
+import pygame, sys, random, gif_pygame, button
 
 MIN_VER = (3, 7)
 
@@ -20,12 +19,12 @@ menu = gif_pygame.load('sprites/menu.gif')
 
 font = pygame.font.Font('font.ttf')
 
-city = pygame.image.load('sprites/1.png').convert_alpha()
-img2 = pygame.image.load('sprites/2.png').convert_alpha()
-img3 = pygame.image.load('sprites/3.png').convert_alpha()
-img4 = pygame.image.load('sprites/4.png').convert_alpha()
-img5 = pygame.image.load('sprites/5.png').convert_alpha()
-img6 = pygame.image.load('sprites/6.png').convert_alpha()
+city = pygame.image.load('sprites/1.png').convert()
+img2 = pygame.image.load('sprites/2.png').convert()
+img3 = pygame.image.load('sprites/3.png').convert()
+img4 = pygame.image.load('sprites/4.png').convert()
+img5 = pygame.image.load('sprites/5.png').convert()
+img6 = pygame.image.load('sprites/6.png').convert()
 img_list = [img2, img3, img4, img5, img6]
 
 sound1 = pygame.mixer.Sound('sounds/crashing_sound.wav')
@@ -304,9 +303,3 @@ def play():
                     moving = True
                     count += 1
 main_menu()
-
-pygame.quit()
-sys.exit()
-
-
-
