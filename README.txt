@@ -3,12 +3,13 @@ Title: SKY+
 CREDITS
 Code: Sdd
 Art: Sdd
+Audio: Sdd and freesound.org
 
 ------------------------------------------------------------------------------------
 
 GAME
 
-Buildштп a tower. Blocks will appear from the side, and the player will need to press Space to stop them on top of the previous block. 
+Building a tower. Blocks will appear from the side, and the player will need to press Space to stop them on top of the previous block. 
 The unmatched part will be cut off, making it more difficult to place a block on top of the previous one. The goal is to build the tower as high as possible.
 
 ---------------------------------------------------------------------------------------
@@ -54,3 +55,4 @@ This game is released under the MIT License.
 
 This is a simple skyscraper-building game. My very first game ever, made for my first game jam ever. 
 I’m really glad for the experience, thank you :]
+
